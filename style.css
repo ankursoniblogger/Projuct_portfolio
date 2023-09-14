@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    line-height: 24px;
+    font-size: 15px;
+    color: rgb(103, 97, 97);
+    font-weight: 500;
+}
+nav img{
+    height: 30px;
+    width: 170px;
+}
+
+nav ul li{
+list-style: none;
+}
+
+.nav-btn{
+    position: absolute;
+    right: 100px;
+   padding: 8px 30px;
+   font-size: 15px;
+   border-radius: 30px;
+   outline: none;
+   cursor: pointer;
+   background-color: #D3CAFF;
+   border: 0;   
+
+}
+.nav-btn:hover{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+}
+
+/* navbar ended  */
+.container h1{
+    margin-top: 120px;
+    font-size: 120px;
+    padding: 0 100px;
+    font-weight: 500;
+    color: rgb(52, 50, 50);
+    background-color: #FFFFFF00;
+    line-height: 160px;
+}
+
+.container h1  .main1{
+ font-size: 70px;
+ font-weight: 500;
+ border: 5px solid black;
+ border-radius: 50%;
+ padding: 0 25px;
+}
+.container h1  .main2{
+    border: 10px solid black;
+    border-radius: 53%;
+    padding: 0 62px;
+    height: 70px;
+    width: 10%;
+    display: inline-block; 
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+}
+.container2 h1 #counter{
+    font-size: 50px;
+}
+.container2 p {
+    font-size: 17px;
+    color: rgb(97, 96, 96);
+    
+}
+
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    margin:  30px 0;
+    border-bottom: 1px solid black;
+    padding: 100px;
+}
+.container3 .main{
+    display: flex;
+    text-align: center;
+}
+.container3 .main button{
+    padding: 8px 30px;
+    font-size: 15px;
+    border-radius: 30px;
+    letter-spacing: 5px;
+    margin-left: 55px;
+}
+.container3 .main button:hover{
+    cursor: pointer;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-weight: 900;
+
+}
+.container3 .main2{
+    display: flex;
+}
+.container3 .main2 p{
+    padding: 0 20px;
+}
+
+ /* main container start   */
+ 
+.container4{
+height: 80vh;
+margin-top: 100px;
+}
+.top-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.top-cont img{
+    width: 420px;
+    height: 500px;
+    filter: grayscale(100%);
+}
+.top-cont .text{
+    margin-top: 130px;
+
+}
+
+.top-cont .text h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(51, 51, 51);
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.text .counter{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.text .counter div{
+    padding: 0 25px;
+}
+
+/* main container end */
+
+
+.container5{
+    margin-left: 40px;
+}
+.container5 .upper-card-text{
+    margin-top: 100px;
+
+}
+.container5 .upper-card-text h1{
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.container5 .card{
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+    grid-template-rows: 320px 280px 280px  ;
+      box-sizing: border-box;
+}
+
+.container5 .card .single-card{
+    width: 400px;
+    height: 270px;
+    border: 1px solid rgb(75, 75, 75);
+    margin: 70px;
+    padding-left: 30px;
+}
+.card .single-card h3 {
+    padding: 25px ;
+    padding-bottom: 35px;
+}
+.card .single-card h3 i{
+    font-size: 40px;
+    color: rgb(57, 57, 57);
+    
+}
+.card .single-card h2{
+    font-size: 29px;
+    font-weight: 500;
+    color: rgb(78, 78, 78);
+    padding-bottom: 15px;
+
+}
+.card .single-card p{
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.card .single-card:hover{
+    cursor: pointer;
+    background-color: #D3CAFF;
+    transform: skew(2deg, 3deg);
+  transition: background-color 0.5s;    
+}
+.last {
+    background-color: #D3CAFF;
+    border: none;
+
+}
+.single-card h1{
+    font-weight: 500;
+    margin: 25px;
+    font-size: 25px;
+    padding: 10PX;
+}
+.single-card button{
+     padding: 8px 10px;
+    font-size: 12px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+/* container 6 start  */
+.container6{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#dbdada22;
+}
+
+.skill{
+    margin-top:130px ;
+}
+.skill h1{
+    font-size: 5.8em;
+    font-weight: 400 ;
+    color: #262729;
+    margin-bottom: 50px;
+}
+
+.skill p{
+    padding-top: 10px;
+    color: rgb(103, 97, 97);
+}
+
+
+.specialskill .skill1 {
+   margin-bottom: 50px;
+   margin-top: 20px;
+}
+
+.skill1 h1{
+    font-size: 27px;
+    color: rgb(65, 61, 61);
+}
+
+.skill1 p{
+padding: 20px 0;
+color: rgb(103, 97, 97);
+}
+.skill1 progress{
+    width: 90%;
+    font-size: 7px;
+}
+
+.skill1 h1 span{
+    padding-left: 16em;
+}
+.skill1 h1 .pro{
+    padding-left: 12em;
+}
+
+/* container 7 start  */
+
+.container7{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.myExperience{
+    margin-top: 120px;
+}
+.myExperience h1{
+    font-size: 5.5em;
+    font-weight: 400 ;
+    color: #262729;
+    margin-bottom: 50px;
+} 
+
+.myExperience p{
+padding: 20px 0;
+color: rgb(103, 97, 97);
+}
+
+.experience{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.experience .exp{
+    margin-bottom: 50px;
+    border-bottom: 1px solid black ;
+}
+.exp h1{
+    font-size: 27px;
+    padding-bottom: 15px;
+    color: rgb(65, 61, 61);
+}
+
+.exp h1 span{
+    padding-left: 7em;
+    font-size: 15px;
+    font-weight: 300;
+}
+.exp1 h1 span{
+    padding-left: 10em;
+    
+}
+
+.myExperience button{
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    padding: 7px 27px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #D3CAFF;
+    transition: font-size 0.2s ease ;
+}
+.myExperience button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size:15px ;
+    font-weight: 400;
+}
+
+/* <!-- container 8 start  --> */
+
+.container8{
+    height: 90vh;
+    background-image: url(https://templatekit.jegtheme.com/ferran/wp-content/uploads/sites/357/2023/03/abstract-packaging-branding-for-aromatic-brands-with-design-space-e1679883779559.jpg);
+    background-position: center center;
+    background-size: cover;
+    filter:   brightness( 80% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con8 h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 400;
+    
+
+}
+.con8 p{
+    color: white;
+    font-size: 18px;
+    padding-top: 40px;
+}
+.con8 h2{
+ font-size: 80px;
+ color: white;
+}
+
+.container9{
+    height: 90vh;
+    background-image: url(https://templatekit.jegtheme.com/ferran/wp-content/uploads/sites/357/2023/03/designer-at-work-e1679884017244.jpg);
+    background-position: center center;
+    background-size: cover;
+   filter:  brightness( 80% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+   background-attachment: fixed;
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container10{
+    height: 90vh;
+    background-image: url(https://templatekit.jegtheme.com/ferran/wp-content/uploads/sites/357/2023/03/website-development-e1679883796827.jpg);
+    background-position: center center;
+    background-size: cover;
+   filter:  brightness( 80% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+   background-attachment: fixed;
+   display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.img-text {
+    margin:  120px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-text img{
+    width: 35%;
+    height: 200px;
+}
+.img-text h1{
+    font-size: 5.5em;
+    font-weight: 400;
+}
+
+
+
+ .con11{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+}
+.con11 .ceo{
+    padding-left: 100px;
+    font-weight: 300;
+    font-size: 14px;
+   margin-top: -15px;
+}
+
+.con11 img{
+    height: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 3px;
+}
+.con11 span{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 30px;  
+}
+.con11 p{
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight:500 ;
+    color: #3f4144;
+    text-align: center;
+}
+
+
+
+.container12{
+    /* height: 100vh; */
+    margin-bottom: 160px;
+}
+
+.container12 span{
+    font-size: 5em;
+    padding: 0  200px;
+    font-weight: 500;
+}
+
+.container12 button{
+    margin-left: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 7px 27px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: #D3CAFF;
+    transition: font-size 0.2s ease ;
+}
+.container12 button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size:15px ;
+    font-weight: 400;
+}
+.con12{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.con12 .con12-img img{
+    height: 250px;
+    width: 550px;
+}
+.con12 div img{
+    height: 585px;
+    width: 700px;
+}
+.con12-img h2{
+    font-size: 19px;
+    padding: 10px 0 18px 0;
+}
+.con12-img p{
+    color: #3f4144;
+    font-size: 14px;
+}
+
+.con12 div h2{
+    font-size: 19px;
+    padding: 10px 0 18px 0;
+}
+.con12 div p{
+    color: #3f4144;
+    font-size: 14px;
+}
+
+/* container 12 end  */
+
+/* footer start  */
+
+footer{
+    background-color: #262729;
+    height: 45vh;
+    color: white;
+    padding-top: 70px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+    
+}
+.footer-content h1{
+    font-size: 6em;
+    font-weight: 500;
+}
+.footer-content button{
+    padding: 10px 44px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: #D3CAFF;
+    transition: 2.5s;
+    border: 0;
+}
+.footer-content button:hover{
+    transform: rotate(360deg);
+    background-color: white;
+    cursor: pointer;
+    color: pink;
+
+}
